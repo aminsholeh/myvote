@@ -1,4 +1,4 @@
-Modifikasi 
+## Modifikasi Tim UI
 1. Component
     - Navbar => src\component\Navbar.jsx
     - Footer => src\component\Footer.jsx
@@ -8,6 +8,9 @@ Modifikasi
     - Vote => src\pages\Vote.jsx
     - Transaction => src\pages\Transaction.jsx
     - Add Candidate => src\pages\AddCandidate.jsx
+    
+    
+    
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
