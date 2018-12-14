@@ -7,12 +7,14 @@ import Login from './Login'
 import Vote from './Vote'
 import AddCandidate from './AddCandidate'
 import Transaction from './Transaction'
+import NewNavbar from '../components/NewNavbar'
 
 export default class App extends Component {
   render() {
     return (
       <div>
           <MyNavbar/>
+          
 
           <div>
               <Switch>

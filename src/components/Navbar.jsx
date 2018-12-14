@@ -17,6 +17,7 @@ import { Affix} from 'antd';
 
 
 
+
 export default class MyNavbar extends React.Component {
   constructor(props) {
     super(props);
@@ -36,8 +37,8 @@ export default class MyNavbar extends React.Component {
       <div>
         <Affix>
         <Navbar color="light" light expand="md">
-          {/* <NavbarBrand><img height="50px" src="http://i63.tinypic.com/oid9xu.png"/></NavbarBrand> */}
-          <NavbarBrand tag={Link} to="/" className="Brand"> My Vote ID</NavbarBrand>
+          <NavbarBrand><img height="30px" src="/images/logomyvote.png" /></NavbarBrand>
+          {/* <NavbarBrand tag={Link} to="/" className="Brand"> My Vote ID</NavbarBrand> */}
           <NavbarToggler onClick={this.toggle} />
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
